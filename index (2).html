@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <script type='text/javascript' src='https://bjbyysyv52zgv5k7.canva-hosted-embed.com/lXYi2O3FTihzYeN7ao-YsoIRVyHofBUJ31gHf4rSfunAYHWNnJgAB1EWdUAzr0jZNRIjM4k_P5zWNeen6i-W9w=='></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offre Limitée - Ne Manquez Pas Cette Opportunité</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        
+        body { font-family: 'Inter', sans-serif; }
+        
+        .timer-digit {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.05); } }
+        
+        .carousel-container { scroll-snap-type: x mandatory; scrollbar-width: none; -ms-overflow-style: none; }
+        .carousel-container::-webkit-scrollbar { display: none; }
+        .carousel-item { scroll-snap-align: center; flex-shrink: 0; }
+        
+        .gradient-bg { background: linear-gradient(135deg, #fce7f3 0%, #f9a8d4 100%); }
+        
+        .btn-primary { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); transition: all 0.3s ease; }
+        .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 10px 25px rgba(102, 126, 234, 0.3); }
+        .btn-secondary { background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%); transition: all 0.3s ease; }
+        .btn-secondary:hover { transform: translateY(-2px); box-shadow: 0 10px 25px rgba(252, 182, 159, 0.3); }
+        /* CTA bas de page — style bleu→rose */
+        .btn-cta{background:linear-gradient(90deg,#5EA0FF 0%,#A68CF3 50%,#F173B6 100%);border-radius:14px;box-shadow:0 16px 28px rgba(236,72,153,.30),0 4px 10px rgba(0,0,0,.06);transition:transform .2s ease, box-shadow .2s ease}
+        .btn-cta:hover{transform:translateY(-2px);box-shadow:0 22px 36px rgba(236,72,153,.35),0 6px 14px rgba(0,0,0,.08)}
+        .btn-cta:active{transform:translateY(-1px)}
+        /* Nudge "JE VEUX MON BONUS" (au-dessus du bouton image) */
+        .cta-nudge{display:flex;align-items:center;justify-content:center;gap:10px;width:fit-content;margin:0 auto 12px;padding:8px 14px;border-radius:9999px;background:linear-gradient(90deg,#5EA0FF 0%,#A68CF3 50%,#F173B6 100%);color:#fff;font-weight:800;letter-spacing:.5px;box-shadow:0 12px 26px rgba(236,72,153,.28),0 4px 10px rgba(0,0,0,.06);text-decoration:none;cursor:pointer}
+        .cta-nudge .arrows{display:flex;gap:6px}
+        .cta-nudge .arrows svg{width:16px;height:16px;animation:bounce 1.2s infinite ease-in-out}
+        .cta-nudge .arrows svg:nth-child(2){animation-delay:.1s}
+        .cta-nudge .arrows svg:nth-child(3){animation-delay:.2s}
+        @keyframes bounce{0%,100%{transform:translateY(0)}50%{transform:translateY(4px)}}
+        /* Badge sous la bannière */
+        .cta-badge{display:inline-flex;align-items:center;gap:8px;padding:8px 14px;border-radius:9999px;background:linear-gradient(90deg,#5EA0FF 0%,#A68CF3 50%,#F173B6 100%);color:#fff;font-weight:800;text-transform:uppercase;letter-spacing:.4px;font-size:.85rem;box-shadow:0 12px 24px rgba(236,72,153,.28),0 4px 10px rgba(0,0,0,.06)}
+        /* Trust chips */
+        .trust-chips{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-top:10px}
+        .trust-chip{display:inline-flex;align-items:center;gap:8px;padding:6px 12px;border-radius:9999px;background:rgba(255,255,255,.9);border:1px solid rgba(167,139,250,.28);color:#374151;font-weight:600;font-size:.85rem;box-shadow:0 8px 18px rgba(236,72,153,.12)}
+        @media (max-width:420px){.trust-chip{font-size:.8rem}}
+
+
+        /* ===== Styles de la nouvelle FAQ (style jeuxtiktok / 150%) ===== */
+        .faq-card{background:#F9EAFE;border-radius:20px;box-shadow:0 10px 24px rgba(118,75,162,.12);overflow:hidden;border:1px solid #F4D8FF}
+        .faq-item{position:relative}
+        .faq-btn{display:flex;align-items:center;justify-content:space-between;gap:12px;width:100%;padding:12px 16px}
+        .faq-left{display:flex;align-items:center;gap:12px}
+        .faq-title{color:#1F2937;font-weight:600}
+        /* fermé: aucun espace supplémentaire en bas */
+        .faq-panel{background:#FBEAFE;border:1px solid #F2D7FF;border-radius:16px;max-height:0;overflow:hidden;transition:max-height .3s ease,padding .2s ease, margin .2s ease;padding:0 16px;margin:0}
+        .faq-icon{width:40px;height:40px;border-radius:9999px;display:grid;place-items:center;flex:none;
+                  background:linear-gradient(135deg,#A78BFA 0%,#EC4899 100%);color:#fff;font-size:18px}
+        .faq-arrow{width:36px;height:36px;border-radius:12px;display:grid;place-items:center;flex:none;color:#1F2937;background:linear-gradient(180deg,#F3E8FF 0%,#FDE7F9 100%);border:1px solid #E9D5FF;box-shadow:inset 0 1px 0 rgba(255,255,255,.7),0 2px 6px rgba(167,139,250,.18);transition:background .2s ease}
+        .faq-item[data-open="true"] .faq-arrow{background:linear-gradient(180deg,#F8ECFF 0%,#FCE7F3 100%)}
+        /* ouvert: ajoute les espacements */
+        .faq-item[data-open="true"] .faq-panel{max-height:800px;padding:16px;margin:12px 8px 8px}
+    .faq-arrow svg{width:18px;height:18px;transition:transform .25s ease}
+        .faq-item[data-open="true"] .faq-arrow svg{transform:rotate(180deg)}
+    /* ===== Story Carousel (9:16) ===== */
+        .story-wrap{max-width:clamp(340px,92vw,560px);margin:0 auto}
+        .story-viewport{position:relative}
+        .story-track{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;scroll-behavior:smooth;-ms-overflow-style:none;scrollbar-width:none;border-radius:22px}
+        .story-track::-webkit-scrollbar{display:none}
+        .story-slide{position:relative;flex:0 0 100%;scroll-snap-align:center;width:100%;aspect-ratio:9/16;border-radius:22px;overflow:hidden;border:1px solid rgba(255,255,255,.6);box-shadow:0 18px 38px rgba(0,0,0,.20)}
+        .story-slide img{width:100%;height:100%;object-fit:cover}
+        .story-slide::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,0) 0%,rgba(0,0,0,0) 70%,rgba(0,0,0,.18) 100%)}
+        .story-gain{position:absolute;right:14px;left:auto;bottom:14px;padding:8px 14px;border-radius:9999px;background:#ffffff;border:1px solid rgba(0,0,0,.08);box-shadow:0 8px 18px rgba(0,0,0,.15);color:#16a34a;font-weight:800;letter-spacing:.2px;font-size:.95rem}
+        .story-dots{display:flex;justify-content:center;gap:8px;margin-top:12px}
+        .story-dots button{width:8px;height:8px;border-radius:9999px;background:#e9d5ff;opacity:.6;transition:all .2s ease}
+        .story-dots button[aria-current="true"]{width:20px;background:#a78bfa;opacity:1}
+        .story-nav{position:absolute;top:50%;transform:translateY(-50%);width:36px;height:36px;border-radius:9999px;display:grid;place-items:center;background:rgba(255,255,255,.7);color:#4b5563;box-shadow:0 8px 22px rgba(0,0,0,.18);backdrop-filter:blur(6px)}
+        .story-nav:hover{background:#fff}
+        .story-nav.prev{left:-12px}
+        .story-nav.next{right:-12px}
+        @media (max-width:480px){.story-nav{display:none}}
+            /* Deal chips sous le minuteur */
+        .deal-wrap{display:flex;flex-wrap:wrap;gap:8px;justify-content:center}
+        .deal-chip{background:linear-gradient(90deg,#5EA0FF 0%,#A68CF3 50%,#F173B6 100%);border:none;color:#ffffff;font-weight:800;padding:6px 12px;border-radius:9999px;box-shadow:0 8px 20px rgba(236,72,153,.25)}
+        .deal-lead{display:flex;align-items:center;justify-content:center;gap:8px;color:#6366f1;font-weight:700}
+        .deal-deadline{display:inline-flex;align-items:center;gap:8px;padding:6px 12px;border-radius:9999px;background:rgba(255,255,255,.95);border:1px solid rgba(167,139,250,.35);color:#4f46e5;font-weight:800;box-shadow:0 6px 14px rgba(167,139,250,.15)}
+        @media (max-width:420px){.deal-chip{padding:5px 10px}}
+            /* Headline pill (bulle pour le titre) */
+        .headline-pill{display:inline-flex;align-items:center;gap:10px;padding:10px 18px;border-radius:9999px;background:linear-gradient(90deg,#5EA0FF 0%,#A68CF3 50%,#F173B6 100%);color:#fff;box-shadow:0 12px 28px rgba(236,72,153,.30),0 4px 10px rgba(0,0,0,.06);font-weight:800;letter-spacing:.5px}
+        @media (max-width:480px){.headline-pill{font-size:1rem;padding:8px 14px}}
+            @media (max-width: 480px){
+            .cta-nudge, .cta-badge{width:100%; display:flex; margin-left:0; margin-right:0; padding:12px 16px; border-radius:14px; justify-content:center}
+        }
+    
+        /* === Pleine largeur pour les 3 bulles (titre + 2 CTA) === */
+        .headline-pill, .cta-nudge, .cta-badge{
+            width:100% !important;
+            max-width:100% !important;
+            display:flex !important;
+            justify-content:center;
+            align-items:center;
+            border-radius:14px;
+        }
+        .cta-nudge{margin:0 0 12px 0 !important}
+        /* Optionnel: un peu plus d'espace entre les bulles sur mobile */
+        @media (max-width:480px){
+            .cta-badge{margin-top:10px}
+        }
+    
+        /* === Alignement largeur unifiée (sauf deadline) === */
+        :root{ --hero-max: 680px; }
+        /* Applique une même largeur max et un centrage propre */
+        .headline-pill, .cta-nudge, .cta-badge, .deal-lead{
+            width: min(100%, var(--hero-max)) !important;
+            max-width: var(--hero-max) !important;
+            margin-left: auto !important;
+            margin-right: auto !important;
+            display: flex !important;
+            justify-content: center;
+            align-items: center;
+        }
+        /* La puce deadline doit rester plus étroite */
+        .deal-deadline{ width: auto !important; display:inline-flex; }
+    </style>
+</head>
+<body class="min-h-screen" style="background: linear-gradient(135deg, #fce7f3 0%, #f9a8d4 100%);">
+    <!-- Header avec minuteur -->
+    <div class="gradient-bg py-8 px-4 text-center">
+        <h1 class="text-3xl font-bold mb-3"><span class="headline-pill">⚠️&nbsp;DEPOT MULTIPLIER PAR 2,5&nbsp;⚠️</span></h1>
+        <p class="mb-2" style="color:#6366f1;font-size:12px;line-height:1.2;">Cette opportunité se termine dans :</p>
+        
+        <!-- Minuteur -->
+        <div class="flex justify-center space-x-2 mb-4">
+            <div class="timer-digit text-white rounded-lg p-3 text-center min-w-[60px]">
+                <div class="text-2xl font-bold" id="hours">00</div>
+                <div class="text-xs">HEURES</div>
+            </div>
+            <div class="timer-digit text-white rounded-lg p-3 text-center min-w-[60px]">
+                <div class="text-2xl font-bold" id="minutes">00</div>
+                <div class="text-xs">MINUTES</div>
+            </div>
+            <div class="timer-digit text-white rounded-lg p-3 text-center min-w-[60px]">
+                <div class="text-2xl font-bold" id="seconds">00</div>
+                <div class="text-xs">SECONDES</div>
+            </div>
+        </div>
+        
+        <div class="space-y-3">
+            <p class="deal-lead">Dépose 20€ → tu joues avec 50€</p>
+            <p class="deal-lead">Dépose 50€ → tu joues avec 125€</p>
+            <p class="deal-lead">Dépose 100€ → tu joues avec 250€</p>
+            <div class="flex justify-center">
+                <span class="deal-deadline">⏳ Fin le <span class="offerDate"></span> à 23H59</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bouton d'affiliation principal -->
+    <div class="px-4 py-6">
+        <!-- Nudge visible -->
+        <a href="https://taap.it/Jeu_tiktok" target="_blank" rel="noopener" class="cta-nudge select-none no-underline" aria-label="Je veux mon bonus (ouvre dans un nouvel onglet)">
+            <span>JE VEUX MON BONUS</span>
+            <span class="arrows" aria-hidden="true">
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 5v12m0 0l-5-5m5 5l5-5" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 5v12m0 0l-5-5m5 5l5-5" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 5v12m0 0l-5-5m5 5l5-5" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>
+            </span>
+        </a>
+        <a href="https://taap.it/Jeu_tiktok" target="_blank" 
+           class="btn-primary block w-full text-white rounded-xl font-semibold text-lg shadow-lg flex items-end justify-start p-6 relative overflow-hidden" 
+           style="aspect-ratio: 1200/400; background-image: url('https://images.ctfassets.net/396hpkwz9eqc/188mubcSy8XI8pmzdtZtz4/db77553115ad71cadb5d60a93a1dc0fe/mystake-casino-banner.webp'); background-size: cover; background-position: center;">
+            <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
+        </a>
+        <div class="flex justify-center mt-3">
+            <span class="cta-badge">🚀 INSCRIPTION EN 30 SECONDES</span>
+        </div></div>
+
+    <!-- Section Preuves 9:16 (carrousel) -->
+    <section id="stories" class="px-4 py-6">
+        <h2 class="text-xl font-semibold text-gray-800 text-center mb-4">Gains récents 📱</h2>
+        <div class="story-wrap">
+            <div class="story-viewport">
+                <button id="storyPrev" class="story-nav prev" aria-label="Précédent">‹</button>
+                <div id="storyTrack" class="story-track">
+                    <figure class="story-slide">
+                        <img src="https://i.ibb.co/0RNV8TQ9/image1-2.jpg" alt="Preuve 1" loading="lazy"/>
+                        <figcaption class="story-gain">+290€ ✨</figcaption>
+                    </figure>
+                    <figure class="story-slide">
+                        <img src="https://i.ibb.co/hPVb0zV/image0-2.jpg" alt="Preuve 2" loading="lazy"/>
+                        <figcaption class="story-gain">+135€ ✨</figcaption>
+                    </figure>
+                    <figure class="story-slide">
+                        <img src="https://i.ibb.co/V0j0BbF9/IMG-5914.jpg" alt="Preuve 3" loading="lazy"/>
+                        <figcaption class="story-gain">+140€ ✨</figcaption>
+                    </figure>
+                </div>
+                <button id="storyNext" class="story-nav next" aria-label="Suivant">›</button>
+            </div>
+            <div id="storyDots" class="story-dots" aria-label="Navigation"></div>
+        </div>
+    </section>
+
+    <!-- ===== Nouvelle FAQ (bonus 150%) ===== -->
+    <section id="faq-150" class="mx-4 my-8">
+      <h2 class="text-2xl font-semibold text-center text-[#1F2937] mb-6">Questions fréquentes</h2>
+
+      <div class="space-y-4" style="max-width:880px;margin:0 auto;">
+
+        <!-- 1 -->
+        <article class="faq-item faq-card" data-open="false">
+          <button type="button" class="faq-btn" aria-expanded="false">
+            <span class="faq-left">
+              <span class="faq-icon">➕</span>
+              <span class="faq-title">Y’a un bonus si je dépose ?</span>
+            </span>
+            <span class="faq-arrow" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg></span>
+          </button>
+          <div class="faq-panel text-[#374151] leading-relaxed">
+            <p class="mb-3">💬 <strong>Oui : dépôt multiplié par 2,5</strong> (sans code).</p>
+            <ul class="space-y-1">
+              <li>&gt; 🔥 Tu déposes <strong>20€</strong> → tu joues avec <strong>50€</strong></li>
+              <li>&gt; 💸 Tu déposes <strong>100€</strong> → tu joues avec <strong>250€</strong></li>
+            </ul>
+            <p class="mt-3">✅ <strong>Bonus appliqué à chaque premier dépôt.</strong></p>
+          </div>
+        </article>
+
+        <!-- 2 -->
+        <article class="faq-item faq-card" data-open="false">
+          <button type="button" class="faq-btn" aria-expanded="false">
+            <span class="faq-left">
+              <span class="faq-icon">💳</span>
+              <span class="faq-title">Est-ce qu’on peut retirer l’argent ?</span>
+            </span>
+            <span class="faq-arrow" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg></span>
+          </button>
+          <div class="faq-panel text-[#374151] leading-relaxed">
+            <p class="mb-3">💬 <strong>Bien sûr !</strong></p>
+            <p>Dès que t’as gagné, tu peux retirer sur ton compte bancaire et tu recevras en <strong>2 jours</strong>.</p>
+            <ul class="space-y-1 mt-3">
+              <li>&gt; ✨ <strong>Simple & rapide</strong></li>
+              <li>&gt; 🏦 Demande de retrait</li>
+              <li>&gt; ⏱️ <strong>Traitement sous 2h</strong></li>
+              <li>&gt; 💶 Virement sur ton compte</li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- 3 -->
+        <article class="faq-item faq-card" data-open="false">
+          <button type="button" class="faq-btn" aria-expanded="false">
+            <span class="faq-left">
+              <span class="faq-icon">🎮</span>
+              <span class="faq-title">Où sont les jeux ?</span>
+            </span>
+            <span class="faq-arrow" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg></span>
+          </button>
+          <div class="faq-panel text-[#374151] leading-relaxed">
+            <p class="mb-3">🎮 Une fois <strong>inscrit et connecté</strong>, et après ton <strong>premier dépôt</strong> :</p>
+            <ul class="space-y-1">
+              <li>&gt; 🧊 Accès aux <strong>mini-jeux exclusifs</strong></li>
+              <li>&gt; 🎯 <strong>Interface intuitive</strong></li>
+              <li>&gt; ✨ <strong>Bonus spéciaux</strong> débloqués</li>
+            </ul>
+            <p class="mt-3">⚡ Tout est <strong>instantané</strong> après ton dépôt !</p>
+          </div>
+        </article>
+
+        <!-- 4 -->
+        <article class="faq-item faq-card" data-open="false">
+          <button type="button" class="faq-btn" aria-expanded="false">
+            <span class="faq-left">
+              <span class="faq-icon">🔒</span>
+              <span class="faq-title">C’est fiable ?</span>
+            </span>
+            <span class="faq-arrow" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg></span>
+          </button>
+          <div class="faq-panel text-[#374151] leading-relaxed">
+            <p class="mb-3">🔐 <strong>Absolument sûr et certifié !</strong></p>
+            <ul class="space-y-1">
+              <li>&gt; ✅ Site de jeu <strong>officiellement certifié</strong></li>
+              <li>&gt; 🌍 Actif <strong>dans plusieurs pays</strong></li>
+              <li>&gt; 💳 <strong>Paiements sécurisés</strong></li>
+            </ul>
+            <p class="mt-3">🎯 Notre philosophie :</p>
+            <ul class="space-y-1">
+              <li>&gt; 💸 Tu <strong>déposes</strong> → 🎮 Tu <strong>joues</strong> → 🟢 Tu <strong>retires</strong></li>
+            </ul>
+            <p class="mt-3"><strong>Simple. Sans prise de tête.</strong> ✨</p>
+          </div>
+        </article>
+
+        <!-- 5 -->
+        <article class="faq-item faq-card" data-open="false">
+          <button type="button" class="faq-btn" aria-expanded="false">
+            <span class="faq-left">
+              <span class="faq-icon">❓</span>
+              <span class="faq-title">C’est quoi exactement le jeu ?</span>
+            </span>
+            <span class="faq-arrow" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg></span>
+          </button>
+          <div class="faq-panel text-[#374151] leading-relaxed">
+            <p class="mb-3">🎮 <strong>Mini-jeu ultra rapide et simple :</strong></p>
+            <ul class="space-y-1">
+              <li>&gt; ⚡ <strong>Quelques clics</strong> suffisent</li>
+              <li>&gt; 💫 Possibilité de <strong>doubler instantanément</strong></li>
+              <li>&gt; 🔥 Le même jeu que tu vois sur <strong>TikTok</strong> et <strong>Insta</strong> !</li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- 6 -->
+        <article class="faq-item faq-card" data-open="false">
+          <button type="button" class="faq-btn" aria-expanded="false">
+            <span class="faq-left">
+              <span class="faq-icon">📱</span>
+              <span class="faq-title">Est-ce que ça marche sur téléphone ?</span>
+            </span>
+            <span class="faq-arrow" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg></span>
+          </button>
+          <div class="faq-panel text-[#374151] leading-relaxed">
+            <p class="mb-3">📲 <strong>100% compatible mobile !</strong></p>
+            <ul class="space-y-1">
+              <li>&gt; ✨ Optimisé pour ton téléphone</li>
+              <li>&gt; 🚀 <strong>Interface fluide</strong> et intuitive</li>
+              <li>&gt; 💡 <strong>Pas besoin d’ordinateur</strong></li>
+            </ul>
+            <p class="mt-3">Tout se fait depuis ton tel en <strong>quelques clics</strong> ! 🎯</p>
+          </div>
+        </article>
+
+        <!-- 7 -->
+        <article class="faq-item faq-card" data-open="false">
+          <button type="button" class="faq-btn" aria-expanded="false">
+            <span class="faq-left">
+              <span class="faq-icon">🧐</span>
+              <span class="faq-title">Est-ce que je peux tester sans déposer ?</span>
+            </span>
+            <span class="faq-arrow" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg></span>
+          </button>
+          <div class="faq-panel text-[#374151] leading-relaxed">
+            <p class="mb-3">🔎 <strong>Voici comment ça marche :</strong></p>
+            <ul class="space-y-1">
+              <li>&gt; ✅ <strong>Explorer le site</strong> : Gratuit</li>
+              <li>&gt; 🎮 <strong>Accès aux jeux</strong> : Après dépôt</li>
+              <li>&gt; 💎 <strong>Dépôt minimum</strong> : 20€</li>
+            </ul>
+            <p class="mt-3">⭐ <strong>Notre conseil</strong> : Commence avec le minimum pour tester !</p>
+          </div>
+        </article>
+
+        <!-- 8 -->
+        <article class="faq-item faq-card" data-open="false">
+          <button type="button" class="faq-btn" aria-expanded="false">
+            <span class="faq-left">
+              <span class="faq-icon">💠</span>
+              <span class="faq-title">C’est quoi le minimum pour jouer ?</span>
+            </span>
+            <span class="faq-arrow" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg></span>
+          </button>
+          <div class="faq-panel text-[#374151] leading-relaxed">
+            <p class="mb-3">🔔 <strong>Commence avec seulement 20€ !</strong></p>
+            <ul class="space-y-1">
+              <li>&gt; 🎯 Parfait pour <strong>tester</strong></li>
+              <li>&gt; 🎁 <strong>Bonus doublé automatiquement</strong></li>
+              <li>&gt; ⭐ Accès à <strong>tous les jeux</strong></li>
+            </ul>
+            <p class="mt-3">✨ Pas besoin de mettre plus pour ta première fois !</p>
+          </div>
+        </article>
+
+        <!-- 9 -->
+        <article class="faq-item faq-card" data-open="false">
+          <button type="button" class="faq-btn" aria-expanded="false">
+            <span class="faq-left">
+              <span class="faq-icon">🕒</span>
+              <span class="faq-title">Je trouve pas le bouton pour jouer, il est où ?</span>
+            </span>
+            <span class="faq-arrow" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg></span>
+          </button>
+          <div class="faq-panel text-[#374151] leading-relaxed">
+            <p class="mb-3">🎮 <strong>Super simple à trouver :</strong></p>
+            <ul class="space-y-1">
+              <li>&gt; 📜 Fais défiler jusqu’en <strong>bas de page</strong></li>
+              <li>&gt; 🎯 Clique sur <strong>Commencer à jouer</strong></li>
+              <li>&gt; ⚡ Le mini-jeu se lance <strong>instantanément</strong></li>
+            </ul>
+            <p class="mt-3">✨ Et c’est parti pour jouer ! 🐭</p>
+          </div>
+        </article>
+
+      </div>
+    </section>
+    <!-- ===== /FAQ ===== -->
+
+    <!-- Bouton vers votre site web (bas de page) -->
+    <div class="px-4 py-6"><a href="https://taap.it/Jeu_tiktok" target="_blank"
+           class="btn-cta block w-full text-white text-center py-3 md:py-3.5 px-6 font-semibold tracking-wide uppercase flex items-center justify-center gap-2">
+            <span>Commencer à jouer</span>
+            <span aria-hidden="true">🎮</span>
+        </a>
+    </div>
+    <script>
+        // Minuteur qui se remet à zéro chaque jour à minuit
+        function updateTimer() {
+            const now = new Date();
+            const tomorrow = new Date(now);
+            tomorrow.setDate(tomorrow.getDate() + 1);
+            tomorrow.setHours(0, 0, 0, 0);
+            const timeLeft = tomorrow - now;
+            const hours = Math.floor(timeLeft / (1000 * 60 * 60));
+            const minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
+            document.getElementById('hours').textContent = hours.toString().padStart(2, '0');
+            document.getElementById('minutes').textContent = minutes.toString().padStart(2, '0');
+            document.getElementById('seconds').textContent = seconds.toString().padStart(2, '0');
+        }
+        updateTimer();
+        setInterval(updateTimer, 1000);
+
+        // Date du jour (Paris) → remplit tous les .offerDate
+        (function(){
+            const opts = { day:'2-digit', month:'long', timeZone:'Europe/Paris' };
+            const d = new Date().toLocaleDateString('fr-FR', opts);
+            document.querySelectorAll('.offerDate').forEach(el=> el.textContent = d);
+        })();
+
+        // Animation au scroll pour le carrousel
+        const carousel = document.querySelector('.carousel-container');
+        let isScrolling = false;
+        if (carousel) {
+            carousel.addEventListener('scroll', () => {
+                if (!isScrolling) {
+                    isScrolling = true;
+                    setTimeout(() => { isScrolling = false; }, 100);
+                }
+            });
+        }
+
+        // Accordéon : une seule carte ouverte à la fois (nouvelle FAQ)
+        (function(){
+          const items = document.querySelectorAll('#faq-150 .faq-item');
+          items.forEach(item=>{
+            const btn = item.querySelector('button');
+            btn.addEventListener('click', ()=>{
+              const isOpen = item.getAttribute('data-open') === 'true';
+              items.forEach(i=>{
+                i.setAttribute('data-open','false');
+                i.querySelector('button').setAttribute('aria-expanded','false');
+              });
+              if(!isOpen){
+                item.setAttribute('data-open','true');
+                btn.setAttribute('aria-expanded','true');
+              }
+            });
+          });
+        })();
+            // Story carousel logic
+        (function(){
+            const track = document.getElementById('storyTrack');
+            if(!track) return;
+            const slides = Array.from(track.querySelectorAll('.story-slide'));
+            const dotsWrap = document.getElementById('storyDots');
+            const prev = document.getElementById('storyPrev');
+            const next = document.getElementById('storyNext');
+            let index = 0;
+
+            // dots
+            slides.forEach((_,i)=>{
+                const b=document.createElement('button');
+                b.setAttribute('aria-label','Aller à la story '+(i+1));
+                b.addEventListener('click',()=>{
+                    index=i; track.scrollTo({left=i*track.clientWidth,behavior:'smooth'}); update();
+                });
+                dotsWrap.appendChild(b);
+            });
+
+            function update(){
+                const i = Math.round(track.scrollLeft / track.clientWidth);
+                index = i;
+                dotsWrap.querySelectorAll('button').forEach((d,di)=>d.setAttribute('aria-current', di===i ? 'true' : 'false'));
+            }
+            update();
+            track.addEventListener('scroll', ()=> requestAnimationFrame(update));
+
+            function go(delta){
+                index = Math.min(slides.length-1, Math.max(0, index+delta));
+                track.scrollTo({left:index*track.clientWidth, behavior:'smooth'});
+            }
+            if(prev) prev.addEventListener('click',()=>go(-1));
+            if(next) next.addEventListener('click',()=>go(1));
+            window.addEventListener('resize', ()=>update());
+        })();
+        
+        // Social proof count
+        (function(){
+            const el = document.querySelector('#proofCount .count');
+            if(!el) return; const n = Math.floor(Math.random()*80)+120; el.textContent = n;
+        })();
+    </script>
+</body>
+</html>
